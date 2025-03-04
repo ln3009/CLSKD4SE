@@ -1,3 +1,10 @@
+'''
+torch 和 torch.nn：核心的 PyTorch 库，用于创建神经网络和张量计算。
+torch.optim：包含优化器，用于调整模型参数。
+torchvision 和 torchvision.transforms：用于加载和预处理图像数据集。
+pytorch_lightning：简化 PyTorch 训练流程的库。
+torchmetrics：用于计算和记录指标。
+'''
 from typing import Any
 from pytorch_lightning.utilities.types import EVAL_DATALOADERS
 import torch
